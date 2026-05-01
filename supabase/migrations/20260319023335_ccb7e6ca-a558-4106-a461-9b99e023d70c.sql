@@ -1,0 +1,1 @@
+ALTER TABLE public.orders ADD COLUMN volunteer_notes text DEFAULT NULL;

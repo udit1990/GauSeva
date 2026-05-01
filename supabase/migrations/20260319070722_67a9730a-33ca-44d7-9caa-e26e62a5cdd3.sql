@@ -1,0 +1,2 @@
+-- Ensure each order has a unique volunteer+gaushala assignment
+CREATE UNIQUE INDEX idx_orders_volunteer_gaushala ON public.orders (id, assigned_volunteer, gaushala_id) WHERE assigned_volunteer IS NOT NULL AND gaushala_id IS NOT NULL;

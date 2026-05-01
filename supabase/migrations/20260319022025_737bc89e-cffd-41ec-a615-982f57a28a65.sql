@@ -1,0 +1,1 @@
+ALTER TABLE public.certificates ADD COLUMN emailed_at timestamp with time zone DEFAULT NULL;

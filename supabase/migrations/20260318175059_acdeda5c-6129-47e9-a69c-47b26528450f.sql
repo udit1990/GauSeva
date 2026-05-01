@@ -1,0 +1,1 @@
+DELETE FROM profiles WHERE id = '8191190b-feb0-42a0-89e1-a84bf7c5ca7c';

@@ -1,0 +1,16 @@
+project_id = "bfpcuymtkvxnbkgxarsj"
+
+[functions.razorpay-order]
+verify_jwt = false
+
+[functions.razorpay-verify]
+verify_jwt = false
+
+[functions.evidence-process]
+verify_jwt = false
+
+[functions.evidence-url]
+verify_jwt = false
+
+[functions.evidence-cleanup]
+verify_jwt = false
